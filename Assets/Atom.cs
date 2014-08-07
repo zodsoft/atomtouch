@@ -73,8 +73,6 @@ public abstract class Atom : MonoBehaviour
 			//gameObject.rigidbody.velocity = Vector3.zero;
 			if(!gameObject.rigidbody.isKinematic) gameObject.rigidbody.angularVelocity = Vector3.zero;
 			//gameObject.rigidbody.AddForce (force, mode:ForceMode.Force);
-			//gameObject.rigidbody.AddForce (force*StaticVariables.fixedUpdateIntervalToRealTime, mode:ForceMode.Impulse);
-			//gameObject.rigidbody.velocity= new Vector3 (0.5f, 0.5f, 0.5f);
 
 			//TTM velocity verlet: v_n+1 = v_n + 0.5*(a_n+1 + a_n)*delta_t
 			// we have v_n (current velocity before update)
